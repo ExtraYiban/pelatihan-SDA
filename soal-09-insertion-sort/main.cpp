@@ -1,31 +1,46 @@
-/*
-Latihan Soal 9: Sorting (Insertion Sort)
-
-Kamu diminta melengkapi proses insertion sort dengan mekanisme shifting elemen
-ke kanan sampai posisi yang tepat ditemukan.
-
-Tugas:
-- Lengkapi bagian pergeseran elemen pada fungsi insertionSort.
-- Pastikan elemen yang lebih besar dari key digeser satu langkah ke kanan.
-
-Petunjuk:
-1. Simpan elemen yang sedang dibandingkan di variabel key.
-2. Gunakan j untuk bergerak mundur selama elemen lebih besar dari key.
-3. Setelah pergeseran selesai, taruh key di posisi j + 1.
-*/
+// # Latihan Soal 9: Sorting (Insertion Sort)
+//
+// ## Soal 9: Implementasi Insertion Sort
+//
+// Kamu diminta melengkapi algoritma insertion sort dengan mekanisme shifting
+// elemen ke kanan sampai posisi yang tepat ditemukan. Sorting ini bekerja
+// seperti cara kita mengurutkan kartu di tangan.
+//
+// Konsep Kunci:
+// - Insertion Sort mengurutkan array dengan membangun urutan dari kiri ke kanan.
+// - Setiap iterasi, elemen diambil dan disisipkan ke posisi yang tepat.
+// - Elemen yang lebih besar digeser ke kanan untuk membuat tempat.
+// - Kompleksitas: O(n^2) dalam worst case, O(n) dalam best case.
 
 #include <iostream>
 using namespace std;
 
-// Soal 9: geser elemen ke kanan sampai posisi key tepat.
+/**
+ * @brief Urutkan array menggunakan insertion sort.
+ * @param arr Array yang akan diurutkan.
+ * @param n Jumlah elemen dalam array.
+ * @logic
+ * 1. Mulai dari elemen kedua (i = 1).
+ * 2. Simpan elemen saat ini di key.
+ * 3. Geser mundur (j = i - 1) selama arr[j] > key.
+ * 4. Geser arr[j] ke posisi j + 1.
+ * 5. Setelah pergeseran selesai, taruh key di posisi j + 1.
+ */
 void insertionSort(int arr[], int n) {
-    // TODO: lakukan insertion sort dengan shifting elemen ke kanan.
-    // Hint: bandingkan key dengan elemen di sebelah kirinya.
+    // TODO: Lengkapi fungsi insertion sort dengan shifting elemen.
+    // ---- MULAI KODE DI SINI ----
+
+
+
+    // ---- AKHIR KODE DI SINI ----
 }
 
 int main() {
     int data[] = {5, 2, 4, 1, 3};
     insertionSort(data, 5);
     for (int x : data) cout << x << " ";
+    /* Harusnya output:
+       1 2 3 4 5
+    */
     return 0;
 }

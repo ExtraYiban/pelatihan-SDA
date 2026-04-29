@@ -1,18 +1,17 @@
-/*
-Latihan Soal 4: Stack (Prinsip LIFO)
-
-Kamu diminta melengkapi operasi push pada stack sederhana. Stack ini memiliki
-batas kapasitas, jadi program juga harus menangani kondisi overflow.
-
-Tugas:
-- Lengkapi fungsi push agar bisa menambah data dengan benar.
-- Tangani kondisi overflow saat stack sudah penuh.
-
-Petunjuk:
-1. Jika top sudah berada di batas maksimum, tampilkan pesan overflow.
-2. Jika masih ada ruang, naikkan top lalu simpan value ke stack[top].
-3. Cetak pesan sukses saat data berhasil dimasukkan.
-*/
+// # Latihan Soal 4: Stack (Prinsip LIFO)
+//
+// ## Soal 4: Implementasi Stack dengan Penanganan Overflow
+//
+// Kamu diminta melengkapi operasi push pada stack sederhana yang memiliki
+// batas kapasitas maksimal. Stack harus menangani kondisi overflow ketika
+// mencoba menambah elemen ke stack yang sudah penuh.
+//
+// Konsep Kunci:
+// - Stack adalah struktur data dengan prinsip LIFO (Last In First Out).
+// - Push: menambah elemen ke stack.
+// - Pop: mengeluarkan elemen dari stack.
+// - Overflow: kondisi ketika stack sudah penuh dan tidak bisa menambah elemen.
+// - Underflow: kondisi ketika stack kosong dan tidak bisa mengeluarkan elemen.
 
 #include <iostream>
 #define MAX 3
@@ -21,10 +20,22 @@ using namespace std;
 int stack[MAX];
 int top = -1;
 
-// Soal 4: implementasikan push dan tangani overflow saat stack penuh.
+/**
+ * @brief Tambah elemen ke stack dengan penanganan overflow.
+ * @param value Nilai yang akan ditambahkan ke stack.
+ * @logic
+ * 1. Jika top >= MAX - 1, stack sudah penuh, cetak pesan overflow.
+ * 2. Jika masih ada ruang, naikkan top terlebih dahulu.
+ * 3. Simpan value ke stack[top].
+ * 4. Cetak pesan sukses.
+ */
 void push(int value) {
-    // TODO: cek overflow, lalu simpan value ke stack jika masih ada ruang.
-    // Hint: perbarui top sebelum menulis ke stack[top].
+    // TODO: Lengkapi fungsi push dengan penanganan overflow.
+    // ---- MULAI KODE DI SINI ----
+
+
+
+    // ---- AKHIR KODE DI SINI ----
 }
 
 int main() {
@@ -32,5 +43,11 @@ int main() {
     push(20);
     push(30);
     push(40);
+    /* Harusnya output:
+       10 dimasukkan ke stack.
+       20 dimasukkan ke stack.
+       30 dimasukkan ke stack.
+       Stack overflow! Tidak bisa menambah 40
+    */
     return 0;
 }

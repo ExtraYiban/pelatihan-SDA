@@ -1,18 +1,17 @@
-/*
-Latihan Soal 6: Single Linked List (Add Last)
-
-Kamu diminta menambahkan node di akhir single linked list. Untuk melakukannya,
-harus dilakukan traversal dari head sampai node terakhir.
-
-Tugas:
-- Lengkapi bagian traversal agar node baru tersambung di bagian paling belakang.
-- Pastikan node baru menjadi tail saat ditambahkan.
-
-Petunjuk:
-1. Jika head masih nullptr, node baru langsung menjadi head.
-2. Jika list sudah ada isinya, bergerak terus sampai temp->next bernilai nullptr.
-3. Sambungkan node terakhir ke node baru.
-*/
+// # Latihan Soal 6: Single Linked List (Add Last)
+//
+// ## Soal 6: Tambahkan Node di Akhir Linked List
+//
+// Kamu diminta melengkapi fungsi untuk menambahkan node baru di akhir
+// single linked list. Untuk melakukannya, harus dilakukan traversal dari
+// head sampai node terakhir (tail).
+//
+// Konsep Kunci:
+// - Single Linked List: setiap node memiliki data dan pointer next.
+// - Head: pointer ke node pertama dalam list.
+// - Tail: node terakhir, pointer next-nya bernilai nullptr.
+// - Traversal: bergerak dari satu node ke node berikutnya.
+// - Untuk add last, kita harus menemukan tail terlebih dahulu.
 
 #include <iostream>
 using namespace std;
@@ -22,14 +21,27 @@ struct Node {
     Node *next;
 };
 
-// Soal 6: tambahkan node di akhir linked list dengan traversal ke tail.
+/**
+ * @brief Tambahkan node baru di akhir single linked list.
+ * @param head Reference ke pointer head (agar bisa diubah jika list kosong).
+ * @param dataBaru Data yang akan disimpan di node baru.
+ * @logic
+ * 1. Buat node baru dengan data dataBaru dan next = nullptr.
+ * 2. Jika head adalah nullptr, node baru menjadi head.
+ * 3. Jika list sudah ada, traversal sampai menemukan tail (temp->next == nullptr).
+ * 4. Sambungkan tail dengan node baru.
+ */
 void addLast(Node *&head, int dataBaru) {
     Node *newNode = new Node{dataBaru, nullptr};
     if (head == nullptr) {
         head = newNode;
     } else {
-        // TODO: traversal sampai node terakhir, lalu sambungkan newNode.
-        // Hint: cari node yang next-nya bernilai nullptr.
+        // TODO: Lengkapi traversal untuk menemukan tail dan sambungkan node baru.
+        // ---- MULAI KODE DI SINI ----
+
+
+
+        // ---- AKHIR KODE DI SINI ----
     }
 }
 
@@ -38,5 +50,8 @@ int main() {
     addLast(head, 10);
     addLast(head, 20);
     cout << "Node pertama: " << head->data << ", Node kedua: " << head->next->data;
+    /* Harusnya output:
+       Node pertama: 10, Node kedua: 20
+    */
     return 0;
 }
