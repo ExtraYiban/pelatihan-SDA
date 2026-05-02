@@ -34,15 +34,21 @@ int dequeue() {
     // ---- MULAI KODE DI SINI ----
 
 
-
     // ---- AKHIR KODE DI SINI ----
-    return -1;
 }
 
 int main() {
-    cout << "Data keluar: " << dequeue() << endl;
-    cout << "Data keluar: " << dequeue() << endl;
-    cout << "Data keluar: " << dequeue() << endl;
+    int nilai = dequeue();
+    cout << "Data keluar: " << nilai << endl;
+
+    nilai = dequeue();
+    cout << "Data keluar: " << nilai << endl;
+
+    nilai = dequeue();
+    if (nilai == -1) {
+        cout << "Queue underflow!" << endl;
+    }
+    cout << "Data keluar: " << nilai << endl;
     /* Harusnya output:
        Data keluar: 100
        Data keluar: 200
