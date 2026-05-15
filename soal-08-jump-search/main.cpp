@@ -22,28 +22,29 @@ using namespace std;
  * @param arr Array yang sudah terurut.
  * @param n Jumlah elemen dalam array.
  * @param target Nilai yang dicari.
- * @return Indeks awal blok tempat pencarian linear dimulai, atau -1 jika tidak ada.
+ * @return Indeks target jika ditemukan, atau -1 jika tidak ada.
  * @logic
  * 1. Hitung step = sqrt(n).
  * 2. Gunakan prev untuk menyimpan indeks blok sebelumnya.
  * 3. Lompat sebesar step sampai menemukan blok yang mungkin berisi target.
- * 4. Jika target belum ditemukan setelah semua lompatan, return -1.
+ * 4. Lakukan pencarian linear di dalam blok tersebut.
  */
 int jumpSearch(int arr[], int n, int target) {
-    // TODO: Lengkapi fungsi jump search dengan perhitungan step dan looping.
-    // ---- MULAI KODE DI SINI ----
+  // TODO: Lengkapi fungsi jump search dengan perhitungan step dan looping.
+  // ---- MULAI KODE DI SINI ----
 
-    
-
-    // ---- AKHIR KODE DI SINI ----
-    return -1;
+  // ---- AKHIR KODE DI SINI ----
+  return -1;
 }
 
 int main() {
-    int data[] = {1, 3, 5, 7, 9, 11, 13};
-    cout << "Pencarian dimulai dari indeks: " << jumpSearch(data, 7, 9);
-    /* Harusnya output:
-       Pencarian dimulai dari indeks: 2
-    */
-    return 0;
+  int data[] = {1, 3, 5, 7, 9, 11, 13};
+
+  cout << "Pencarian dimulai dari indeks: " << jumpSearch(data, 7, 9);
+
+  /* Harusnya output:
+     Pencarian dimulai dari indeks: 4
+  */
+
+  return 0;
 }
