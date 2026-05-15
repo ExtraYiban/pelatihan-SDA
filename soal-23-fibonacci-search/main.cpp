@@ -40,7 +40,7 @@ int fibonacciSearch(int arr[], int n, int target) {
     while (fib > 1) {
         // TODO: Lengkapi penentuan indeks i dengan kondisi offset + fib2.
         // ---- MULAI KODE DI SINI ----
-        int i = (offset + fib2 < n - 1) ? offset + fib2 : n - 1;
+
         // ---- AKHIR KODE DI SINI ----
         if (arr[i] < target) {
             fib = fib1;

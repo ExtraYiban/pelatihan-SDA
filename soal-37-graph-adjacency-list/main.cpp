@@ -29,7 +29,7 @@ using namespace std;
 void addDirectedEdge(vector<vector<int>> &adj, int u, int v) {
     // TODO: Lengkapi penambahan edge satu arah.
     // ---- MULAI KODE DI SINI ----
-    adj[u].push_back(v);
+
     // ---- AKHIR KODE DI SINI ----
 }
 

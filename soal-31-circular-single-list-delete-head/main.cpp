@@ -39,9 +39,7 @@ void hapusHeadCircular(Node*& head) {
 
     // TODO: Lengkapi logika pencarian node terakhir.
     // ---- MULAI KODE DI SINI ----
-    while (last->next != head) {
-        last = last->next;
-    }
+
     // ---- AKHIR KODE DI SINI ----
 
     if (head == last) {

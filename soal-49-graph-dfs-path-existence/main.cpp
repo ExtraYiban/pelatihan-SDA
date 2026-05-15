@@ -30,11 +30,7 @@ bool hasPath(vector<list<int>> &adj, int start, int end, vector<bool> &visited) 
 
     // TODO: Lengkapi rekursi DFS untuk tetangga yang belum dikunjungi.
     // ---- MULAI KODE DI SINI ----
-    for (int neighbor : adj[start]) {
-        if (!visited[neighbor]) {
-            if (hasPath(adj, neighbor, end, visited)) return true;
-        }
-    }
+
     // ---- AKHIR KODE DI SINI ----
     return false;
 }

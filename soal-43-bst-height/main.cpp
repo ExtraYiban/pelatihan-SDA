@@ -33,8 +33,7 @@ struct Node {
 int getTreeHeight(Node* node) {
     // TODO: Lengkapi logika rekursif perhitungan tinggi.
     // ---- MULAI KODE DI SINI ----
-    if (node == nullptr) return -1;
-    return 1 + max(getTreeHeight(node->left), getTreeHeight(node->right));
+
     // ---- AKHIR KODE DI SINI ----
 }
 

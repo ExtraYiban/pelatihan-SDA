@@ -43,9 +43,7 @@ int fibSearch(int arr[], int n, int target) {
         } else if (arr[i] > target) {
             // TODO: Lengkapi logika geser kiri.
             // ---- MULAI KODE DI SINI ----
-            fib = f2;
-            f1 = f1 - f2;
-            f2 = fib - f1;
+
             // ---- AKHIR KODE DI SINI ----
         } else {
             return i;

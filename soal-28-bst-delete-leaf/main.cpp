@@ -39,10 +39,7 @@ Node* hapusNode(Node* root, int val) {
     else {
         // TODO: Lengkapi kasus penghapusan node daun.
         // ---- MULAI KODE DI SINI ----
-        if (root->left == nullptr && root->right == nullptr) {
-            delete root;
-            return nullptr;
-        }
+
         // ---- AKHIR KODE DI SINI ----
     }
     return root;

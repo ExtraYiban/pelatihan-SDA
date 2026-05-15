@@ -32,9 +32,7 @@ int hitungDerajat(vector<vector<int>> mat, int node, int V) {
     int derajat = 0;
     // TODO: Lengkapi penghitungan derajat dengan loop.
     // ---- MULAI KODE DI SINI ----
-    for (int j = 0; j < V; j++) {
-        if (mat[node][j] == 1) derajat++;
-    }
+
     // ---- AKHIR KODE DI SINI ----
     return derajat;
 }

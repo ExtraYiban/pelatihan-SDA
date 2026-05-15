@@ -34,9 +34,7 @@ void buatTabelBadChar(string pattern, int m, int tabel[]) {
     
     // TODO: Lengkapi pengisian tabel dengan indeks terakhir setiap karakter.
     // ---- MULAI KODE DI SINI ----
-    for (int i = 0; i < m; i++) {
-        tabel[(int)pattern[i]] = i;
-    }
+
     // ---- AKHIR KODE DI SINI ----
 }
 

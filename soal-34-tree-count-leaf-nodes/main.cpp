@@ -33,9 +33,7 @@ int hitungLeaf(Node* root) {
     if (root == nullptr) return 0;
     // TODO: Lengkapi kondisi untuk mendeteksi leaf node.
     // ---- MULAI KODE DI SINI ----
-    if (root->left == nullptr && root->right == nullptr) {
-        return 1;
-    }
+
     // ---- AKHIR KODE DI SINI ----
     return hitungLeaf(root->left) + hitungLeaf(root->right);
 }

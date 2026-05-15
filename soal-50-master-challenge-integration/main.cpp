@@ -45,8 +45,7 @@ Node* tambahBarang(Node* root, Barang b) {
 
     // TODO: Lengkapi logika BST berdasarkan id.
     // ---- MULAI KODE DI SINI ----
-    if (b.id < root->data.id) root->left = tambahBarang(root->left, b);
-    else if (b.id > root->data.id) root->right = tambahBarang(root->right, b);
+
     // ---- AKHIR KODE DI SINI ----
 
     return root;
@@ -64,9 +63,7 @@ Node* getStokTerendah(Node* root) {
 
     // TODO: Lengkapi loop pointer untuk mencari node paling kiri.
     // ---- MULAI KODE DI SINI ----
-    while (curr != nullptr && curr->left != nullptr) {
-        curr = curr->left;
-    }
+
     // ---- AKHIR KODE DI SINI ----
 
     return curr;

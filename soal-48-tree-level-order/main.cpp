@@ -36,8 +36,7 @@ void levelOrder(Node* root) {
 
         // TODO: Lengkapi input anak kiri dan kanan ke queue.
         // ---- MULAI KODE DI SINI ----
-        if (curr->left) q.push(curr->left);
-        if (curr->right) q.push(curr->right);
+
         // ---- AKHIR KODE DI SINI ----
     }
 }

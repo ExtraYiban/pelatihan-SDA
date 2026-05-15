@@ -53,8 +53,7 @@ Node* hapusBST(Node* root, int val) {
             Node* temp = findMin(root->right);
             // TODO: Lengkapi penyalinan data dari successor ke node yang dihapus.
             // ---- MULAI KODE DI SINI ----
-            root->data = temp->data;
-            root->right = hapusBST(root->right, temp->data);
+
             // ---- AKHIR KODE DI SINI ----
         }
     }

@@ -34,9 +34,7 @@ void dequeue() {
         cout << "Keluar: " << q[front++] << endl;
         // TODO: Lengkapi logika reset indeks saat queue kosong.
         // ---- MULAI KODE DI SINI ----
-        if (front > rear) {
-            front = rear = -1;
-        }
+
         // ---- AKHIR KODE DI SINI ----
     }
 }

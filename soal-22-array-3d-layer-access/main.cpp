@@ -32,12 +32,7 @@ void cetakLayer(int arr[][2][2], int layer, int rows, int cols) {
     cout << "Isi Layer ke-" << layer << ":" << endl;
     // TODO: Lengkapi loop untuk baris (j) dan kolom (k).
     // ---- MULAI KODE DI SINI ----
-    for (int j = 0; j < rows; j++) {
-        for (int k = 0; k < cols; k++) {
-            cout << arr[layer][j][k] << " ";
-        }
-        cout << endl;
-    }
+
     // ---- AKHIR KODE DI SINI ----
 }
 

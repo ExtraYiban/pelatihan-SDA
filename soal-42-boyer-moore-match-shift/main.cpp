@@ -40,7 +40,7 @@ void searchBoyerMoore(const string &text, const string &pattern, int badChar[]) 
             cout << "Pola ditemukan pada geseran: " << s << endl;
             // TODO: Lengkapi rumus geser berikutnya setelah match.
             // ---- MULAI KODE DI SINI ----
-            s += (s + m < n) ? m - badChar[(int)text[s + m]] : 1;
+
             // ---- AKHIR KODE DI SINI ----
         } else {
             s += max(1, j - badChar[(int)text[s + j]]);

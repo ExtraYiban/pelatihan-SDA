@@ -31,7 +31,7 @@ using namespace std;
 int hitungGeser(int j, int badCharTable[], char charDiTeks) {
     // TODO: Lengkapi rumus perhitungan geser Boyer-Moore.
     // ---- MULAI KODE DI SINI ----
-    int geser = j - badCharTable[(int)charDiTeks];
+
     // ---- AKHIR KODE DI SINI ----
     return (geser < 1) ? 1 : geser;
 }

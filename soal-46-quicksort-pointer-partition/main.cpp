@@ -31,9 +31,7 @@ int partitionPointer(int* arr, int low, int high) {
             i++;
             // TODO: Lengkapi swap dengan pointer.
             // ---- MULAI KODE DI SINI ----
-            int temp = *(arr + i);
-            *(arr + i) = *(arr + j);
-            *(arr + j) = temp;
+
             // ---- AKHIR KODE DI SINI ----
         }
     }

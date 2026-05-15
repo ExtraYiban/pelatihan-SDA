@@ -41,9 +41,7 @@ void deleteHeadCircular(Node *&head, Node *&tail) {
     } else {
         // TODO: Lengkapi penyambungan head baru dengan tail.
         // ---- MULAI KODE DI SINI ----
-        head = head->next;
-        head->prev = tail;
-        tail->next = head;
+
         // ---- AKHIR KODE DI SINI ----
     }
     delete temp;

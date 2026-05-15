@@ -47,7 +47,7 @@ int fibSearch(int arr[], int n, int target) {
             f2 = fib - f1;
             // TODO: Lengkapi pembaruan offset saat target di kanan.
             // ---- MULAI KODE DI SINI ----
-            offset = i;
+
             // ---- AKHIR KODE DI SINI ----
         } else if (arr[i] > target) {
             fib = f2;

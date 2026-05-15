@@ -35,8 +35,7 @@ Node* buatListBaru(int val) {
     Node* newNode = new Node{val, nullptr, nullptr};
     // TODO: Lengkapi hubungan sirkular dua arah (next dan prev).
     // ---- MULAI KODE DI SINI ----
-    newNode->next = newNode;
-    newNode->prev = newNode;
+
     // ---- AKHIR KODE DI SINI ----
     return newNode;
 }

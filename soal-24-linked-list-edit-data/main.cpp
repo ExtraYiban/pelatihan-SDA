@@ -37,10 +37,7 @@ void editData(Node* head, int posisi, int dataBaru) {
     int hitung = 1;
     // TODO: Lengkapi traversal hingga posisi ditemukan.
     // ---- MULAI KODE DI SINI ----
-    while (temp != nullptr && hitung < posisi) {
-        temp = temp->next;
-        hitung++;
-    }
+
     // ---- AKHIR KODE DI SINI ----
     if (temp != nullptr) temp->data = dataBaru;
 }

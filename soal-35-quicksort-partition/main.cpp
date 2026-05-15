@@ -35,10 +35,7 @@ int partition(int arr[], int low, int high) {
     for (int j = low; j < high; j++) {
         // TODO: Lengkapi kondisi perbandingan dengan pivot.
         // ---- MULAI KODE DI SINI ----
-        if (arr[j] < pivot) {
-            i++;
-            swap(arr[i], arr[j]);
-        }
+
         // ---- AKHIR KODE DI SINI ----
     }
     swap(arr[i + 1], arr[high]);

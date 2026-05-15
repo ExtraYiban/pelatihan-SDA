@@ -46,16 +46,7 @@ void mergePointer(int* arr, int* L, int* R, int n1, int n2, int left) {
     }
     // TODO: Lengkapi penyalinan sisa elemen dari L dan R.
     // ---- MULAI KODE DI SINI ----
-    while (i < n1) {
-        *(arr + k) = *(L + i);
-        i++;
-        k++;
-    }
-    while (j < n2) {
-        *(arr + k) = *(R + j);
-        j++;
-        k++;
-    }
+
     // ---- AKHIR KODE DI SINI ----
 }
 
