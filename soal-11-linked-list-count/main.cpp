@@ -9,7 +9,7 @@
 // Konsep Kunci:
 // - Traversal: bergerak dari satu node ke node berikutnya.
 // - Counter: menambah penghitung setiap kali mengunjungi node.
-// - Kondisi berhenti: ketika temp->next == nullptr.
+// - Kondisi berhenti: ketika temp != nullptr.
 
 #include <iostream>
 using namespace std;

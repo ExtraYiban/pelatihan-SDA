@@ -10,7 +10,7 @@
 // Konsep Kunci:
 // - Prev pointer: menunjuk ke node sebelumnya dalam double linked list.
 // - Reverse traversal: bergerak dari tail ke head menggunakan prev.
-// - Tail: node terakhir dalam double linked list (biasanya nullptr->next).
+// - Tail: node terakhir dalam double linked list (biasanya tail->next == nullptr).
 // - Forward vs backward: double linked list bisa ditraversal dua arah.
 
 #include <iostream>
