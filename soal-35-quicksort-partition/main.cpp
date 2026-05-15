@@ -36,6 +36,9 @@ int partition(int arr[], int low, int high) {
         // TODO: Lengkapi kondisi perbandingan dengan pivot.
         // ---- MULAI KODE DI SINI ----
 
+
+
+
         // ---- AKHIR KODE DI SINI ----
     }
     swap(arr[i + 1], arr[high]);
@@ -47,7 +50,7 @@ int main() {
     int pi = partition(data, 0, 4);
     cout << "Indeks pivot baru: " << pi;
     /* Harusnya output:
-       Indeks pivot baru: 3
+       Indeks pivot baru: 2
     */
     return 0;
 }

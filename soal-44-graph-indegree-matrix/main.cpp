@@ -33,6 +33,8 @@ int hitungIndegree(vector<vector<int>> &adj, int vertex, int V) {
     // TODO: Lengkapi loop penghitung indegree.
     // ---- MULAI KODE DI SINI ----
 
+
+
     // ---- AKHIR KODE DI SINI ----
     return count;
 }

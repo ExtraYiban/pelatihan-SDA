@@ -44,6 +44,8 @@ int fibSearch(int arr[], int n, int target) {
             // TODO: Lengkapi logika geser kiri.
             // ---- MULAI KODE DI SINI ----
 
+
+
             // ---- AKHIR KODE DI SINI ----
         } else {
             return i;

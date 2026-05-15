@@ -31,7 +31,6 @@ void addEdge(vector<vector<int>> &mat, int i, int j) {
     // ---- MULAI KODE DI SINI ----
 
 
-
     // ---- AKHIR KODE DI SINI ----
 }
 

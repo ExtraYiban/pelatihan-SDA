@@ -35,7 +35,6 @@ void inputData(Mahasiswa *m, string namaBaru, int nimBaru) {
     // TODO: Lengkapi fungsi untuk mengisi data struct melalui pointer.
     // ---- MULAI KODE DI SINI ----
 
-    
 
     // ---- AKHIR KODE DI SINI ----
 }

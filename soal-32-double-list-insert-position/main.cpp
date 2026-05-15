@@ -37,6 +37,8 @@ void insertTengah(Node* head, int posisi, int nilai) {
     // TODO: Lengkapi loop traversal hingga posisi - 1.
     // ---- MULAI KODE DI SINI ----
 
+
+
     // ---- AKHIR KODE DI SINI ----
     if (temp != nullptr) {
         Node* newNode = new Node{nilai, temp->next, temp};

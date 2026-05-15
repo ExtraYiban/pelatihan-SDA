@@ -33,6 +33,10 @@ int pop() {
 
 
 
+
+
+
+
     // ---- AKHIR KODE DI SINI ----
     return -1;
 }

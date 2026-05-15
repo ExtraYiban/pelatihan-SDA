@@ -33,6 +33,11 @@ void cetakLayer(int arr[][2][2], int layer, int rows, int cols) {
     // TODO: Lengkapi loop untuk baris (j) dan kolom (k).
     // ---- MULAI KODE DI SINI ----
 
+
+
+
+
+
     // ---- AKHIR KODE DI SINI ----
 }
 

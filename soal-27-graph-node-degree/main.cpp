@@ -33,6 +33,8 @@ int hitungDerajat(vector<vector<int>> mat, int node, int V) {
     // TODO: Lengkapi penghitungan derajat dengan loop.
     // ---- MULAI KODE DI SINI ----
 
+
+
     // ---- AKHIR KODE DI SINI ----
     return derajat;
 }

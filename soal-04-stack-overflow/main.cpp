@@ -35,6 +35,10 @@ void push(int value) {
 
 
 
+
+
+
+
     // ---- AKHIR KODE DI SINI ----
 }
 

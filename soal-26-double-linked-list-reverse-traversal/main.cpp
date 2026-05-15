@@ -36,6 +36,9 @@ void cetakTerbalik(Node* tail) {
     // TODO: Lengkapi traversal mundur menggunakan prev pointer.
     // ---- MULAI KODE DI SINI ----
 
+
+
+
     // ---- AKHIR KODE DI SINI ----
     cout << endl;
 }

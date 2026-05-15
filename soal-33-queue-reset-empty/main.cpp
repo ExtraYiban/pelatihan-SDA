@@ -35,6 +35,9 @@ void dequeue() {
         // TODO: Lengkapi logika reset indeks saat queue kosong.
         // ---- MULAI KODE DI SINI ----
 
+
+
+
         // ---- AKHIR KODE DI SINI ----
     }
 }

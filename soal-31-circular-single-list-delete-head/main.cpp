@@ -40,6 +40,8 @@ void hapusHeadCircular(Node*& head) {
     // TODO: Lengkapi logika pencarian node terakhir.
     // ---- MULAI KODE DI SINI ----
 
+
+
     // ---- AKHIR KODE DI SINI ----
 
     if (head == last) {

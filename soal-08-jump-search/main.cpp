@@ -33,6 +33,15 @@ int jumpSearch(int arr[], int n, int target) {
   // TODO: Lengkapi fungsi jump search dengan perhitungan step dan looping.
   // ---- MULAI KODE DI SINI ----
 
+
+
+
+
+
+
+
+
+
   // ---- AKHIR KODE DI SINI ----
   return -1;
 }

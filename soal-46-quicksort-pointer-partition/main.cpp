@@ -32,6 +32,8 @@ int partitionPointer(int* arr, int low, int high) {
             // TODO: Lengkapi swap dengan pointer.
             // ---- MULAI KODE DI SINI ----
 
+
+
             // ---- AKHIR KODE DI SINI ----
         }
     }
@@ -47,7 +49,7 @@ int main() {
     int pi = partitionPointer(data, 0, 4);
     cout << "Index partisi baru: " << pi;
     /* Harusnya output:
-       Index partisi baru: 3
+       Index partisi baru: 2
     */
     return 0;
 }

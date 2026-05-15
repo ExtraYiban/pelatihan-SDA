@@ -37,7 +37,6 @@ void insertAfter(Node* temp, int dataBaru) {
     // ---- MULAI KODE DI SINI ----
 
 
-
     // ---- AKHIR KODE DI SINI ----
 }
 

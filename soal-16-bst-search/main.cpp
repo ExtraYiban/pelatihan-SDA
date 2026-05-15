@@ -36,7 +36,6 @@ Node* search(Node* root, int key) {
     // ---- MULAI KODE DI SINI ----
 
 
-
     // ---- AKHIR KODE DI SINI ----
 }
 

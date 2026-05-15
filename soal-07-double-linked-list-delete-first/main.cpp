@@ -40,6 +40,9 @@ void deleteFirst(Node *&head) {
 
 
 
+
+
+
     // ---- AKHIR KODE DI SINI ----
     delete del;
 }

@@ -36,6 +36,7 @@ Node* buatListBaru(int val) {
     // TODO: Lengkapi hubungan sirkular dua arah (next dan prev).
     // ---- MULAI KODE DI SINI ----
 
+
     // ---- AKHIR KODE DI SINI ----
     return newNode;
 }

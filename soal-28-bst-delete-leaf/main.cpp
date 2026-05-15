@@ -40,6 +40,9 @@ Node* hapusNode(Node* root, int val) {
         // TODO: Lengkapi kasus penghapusan node daun.
         // ---- MULAI KODE DI SINI ----
 
+
+
+
         // ---- AKHIR KODE DI SINI ----
     }
     return root;

@@ -34,6 +34,9 @@ int getTreeHeight(Node* node) {
     // TODO: Lengkapi logika rekursif perhitungan tinggi.
     // ---- MULAI KODE DI SINI ----
 
+
+
+
     // ---- AKHIR KODE DI SINI ----
 }
 

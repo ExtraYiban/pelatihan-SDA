@@ -42,6 +42,8 @@ void sortedInsertDLL(Node *&head, int nilai) {
     // TODO: Lengkapi kondisi traversal hingga posisi sisip yang tepat.
     // ---- MULAI KODE DI SINI ----
 
+
+
     // ---- AKHIR KODE DI SINI ----
 
     newNode->next = curr->next;

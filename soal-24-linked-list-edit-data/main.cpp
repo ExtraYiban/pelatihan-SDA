@@ -38,6 +38,9 @@ void editData(Node* head, int posisi, int dataBaru) {
     // TODO: Lengkapi traversal hingga posisi ditemukan.
     // ---- MULAI KODE DI SINI ----
 
+
+
+
     // ---- AKHIR KODE DI SINI ----
     if (temp != nullptr) temp->data = dataBaru;
 }

@@ -37,6 +37,7 @@ int hitungNode(Node* head) {
 
 
 
+
     // ---- AKHIR KODE DI SINI ----
     return count;
 }

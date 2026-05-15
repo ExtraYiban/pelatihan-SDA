@@ -32,6 +32,12 @@ void insertionSort(int arr[], int n) {
 
 
 
+
+
+
+
+
+
     // ---- AKHIR KODE DI SINI ----
 }
 
